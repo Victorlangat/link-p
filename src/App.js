@@ -1,4 +1,11 @@
+import React, { PureComponent } from 'react'
+import {PieController} from'chart.js'
+import PieChart from './pchart.js';
+
 import './App.css';
+
+
+
 
 
 
@@ -37,6 +44,7 @@ function Navcontainer() {
 function Sidebarcontainer(){
   return(
 
+  <section> 
     <div className="content">
       <div className="sidemenu">
         <div className="home">
@@ -66,22 +74,22 @@ function Sidebarcontainer(){
         </div>
 
       </div>
-      <section>
           <div className="firstrow">
             <p className="greetings">Good afternoon Rose</p>
             <div className="performance-location">
               <div className="performance">
                   <p className="linkperformance" >Link performance</p>
                   <div className="chart" >
-                      <img id='piechart' src="pie.png" alt="" />
-                      <div className="chart-links">
-
-
-                      </div>
-
-                  </div>
-
-              </div>
+                    <div className="chartpic"><PieChart/></div>
+                    <div className="labels">
+                      <div className='pesa'>m-pesa</div>
+                      <div className='crypt'>Crypto</div>
+                      <div className='edge'>Edge-cards</div>
+                      <div className='credit'>Credit-cards</div>
+                      <div className='pay'>Paypal</div>
+                    </div>
+                    </div>
+              </div>      
 
               <div className="locations">
                 <p className="locationscovered" >Locations Covered</p>
@@ -111,7 +119,7 @@ function Sidebarcontainer(){
 
                 <div className="edge-cards">
                   <img id='edgecardsicon' src="edgeCards LOGO.png" alt="" />
-                  <a href="https://edge.cards/home/edgecards/">Edge Cards</a>
+                  <ao href="https://edge.cards/home/edgecards/">Edge Cards</ao>
                   <img id='angleright' src="Angle right.png" alt="" />
                   
                 </div>
@@ -144,8 +152,9 @@ function Sidebarcontainer(){
           </div>
           
 
-      </section>
-    </div>
+    
+  </div>
+  </section>
   )
 }
 export default App;

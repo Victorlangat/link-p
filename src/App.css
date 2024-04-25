@@ -154,7 +154,7 @@ section{
     justify-content:center;
     transition:top 0.3s ease-in-out;
 
-}
+} 
 .links a:visited:hover{
     transform:scale(1.2);
 }
@@ -285,7 +285,7 @@ section{
 }
 
 .firstrow{
-    margin-left:20%;
+    margin-left:8%;
     display: grid;
 }
 
@@ -524,7 +524,89 @@ a{
     color:#353635;
 
 }
+.chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFFFFF;
+}
+.chartpic{
+    background-color: #FFFFFF;
+    width:60%;
+    height:auto;
+    transition: transform 0.4s ease;
+    background: #FFFFFF;
+}
+.chartpic:hover{
+    transform:scale(1.1);
 
+}
+.labels{
+    font-size: 14px;
+    font-weight: 640;
+    text-wrap:nowrap;
+    padding-left:80px;
+    background-color: #FFFFFF;
+}
+.pesa{
+    color:rgba(255,99,132,0.5);
+    padding-bottom:15px;
+    transition:transform 0.3s ease-in-out;
+    background-color: #FFFFFF;
+
+}
+.pesa:hover{
+    transform: scale(1.2);
+    color:rgba(255,99,132,0.9) ;
+}
+.crypt{
+    color:rgba(54,162,235,0.5) ;
+    padding-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #FFFFFF;
+
+}
+.crypt:hover{
+    transform: scale(1.2);
+    color:rgba(54,162,235,0.9);
+}
+.edge{
+    color: rgba(255,206,86,0.5);
+    padding-bottom:10px;
+    background-color: #FFFFFF;
+    transition: transform 0.3s ease-in-out;
+
+}
+.edge:hover{
+    color: rgba(255,206,86,0.9);
+    transform: scale(1.2);
+}
+.credit:hover{
+    transform: scale(1.2);
+    color:rgba(255,206,86,0.9);
+}
+.credit{
+    color:rgba(30,25,122,0.5);
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+    transition: transform 0.3s ease-in-out;
+
+}
+.credit:hover{
+    transform: scale(1.2);
+    color: rgba(30,25,122,0.9);
+}
+.pay{
+    color:rgba(0,0,0,0.5);
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+    transition: transform 0.3s ease-in-out;
+
+}
+.pay:hover{
+    transform: scale(1.2);
+    color: rgba(0,0,0,0.9);
+}
 
 
 
