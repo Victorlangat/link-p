@@ -586,7 +586,7 @@ a{
     color:rgba(255,206,86,0.9);
 }
 .credit{
-    color:rgba(30,25,122,0.5);
+    color:rgba(75,192,192,0.5);
     padding-bottom: 10px;
     background-color: #FFFFFF;
     transition: transform 0.3s ease-in-out;
@@ -594,10 +594,10 @@ a{
 }
 .credit:hover{
     transform: scale(1.2);
-    color: rgba(30,25,122,0.9);
+    color: rgba(75,192,192,0.9);
 }
 .pay{
-    color:rgba(0,0,0,0.5);
+    color:rgba(153,102,255,0.5);
     padding-bottom: 15px;
     background-color: #FFFFFF;
     transition: transform 0.3s ease-in-out;
@@ -605,7 +605,7 @@ a{
 }
 .pay:hover{
     transform: scale(1.2);
-    color: rgba(0,0,0,0.9);
+    color: rgba(153,102,255,0.9);
 }
 
 
